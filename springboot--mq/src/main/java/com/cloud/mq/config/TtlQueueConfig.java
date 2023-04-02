@@ -84,7 +84,6 @@ public class TtlQueueConfig {
     /**声明死信队列*/
     @Bean("queueD")
     public Queue queueD(){
-
         return QueueBuilder.durable(DEAD_LETTER_QUEUE).build();
     }
 

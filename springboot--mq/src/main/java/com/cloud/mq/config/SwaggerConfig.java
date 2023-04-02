@@ -9,10 +9,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author lisw
- * @create 2021/6/25 21:07
- */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -31,8 +28,8 @@ public class SwaggerConfig {
                 .title("rabbitmq 接口文档")
                 .description("本文档描述了 rabbitmq 微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("acloud_one", "http://acloudone.com",
-                        "cloud_lsw@163.com"))
+                .contact(new Contact("rqs", "http://acloudone.com",
+                        "hirqs@qq.com"))
                 .build();
     }
 }
